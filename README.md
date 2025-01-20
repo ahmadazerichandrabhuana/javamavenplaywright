@@ -61,7 +61,7 @@ Apart from these 3 folders, this sample also using several files on the root fol
    > config.yaml   : yaml file for storing any config-related data for this project
    ```
 
-## Playwright on Java Documentation
+## Related Documentation for Playwright on Java
 - Actions
   https://playwright.dev/java/docs/input
 - Page Assertions
