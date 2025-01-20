@@ -15,7 +15,7 @@ This is a simple sample for Test Automation using Playwright on Java Maven.
 
 * Run specific test : Open file "/testsuites/test.xml" and update line 6-8 (comment & un-comment) and run above command again.
 
-*  Generate report file and open it :
+## Generate report file and open it :
 
    ```
    allure generate --clean && allure open
