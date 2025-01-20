@@ -47,7 +47,7 @@ This sample Test Automation consists of 2 main folders :
 * src
    ```
    Consists of 2 more folders :
-   > main   : contains web element for each specific web pages (implementation of Page Object Model patterns)
+   > main   : contains web elements and actions for each specific web pages (implementation of Page Object Model patterns)
    > test   : contains test cases
    ```
 * testsuites
