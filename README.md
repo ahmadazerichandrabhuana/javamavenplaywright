@@ -13,7 +13,7 @@ This is a simple sample for Test Automation using Playwright on Java Maven.
    mvn clean test -DtestSuites=testsuites/test.xml
    ```
 
-* Run specific test : Open file "/testsuites/test.xml" and update line 6-8 (comment & un-comment) and run above command again.
+* Run specific test : Open file `"/testsuites/test.xml"` and update line 6-8 (comment & un-comment) and run above command again.
 
 ## Generate report file and open it :
 
