@@ -1,5 +1,5 @@
 # Test Automation using Playwright on Java Maven
-This is a simple sample for Test Automation using Playwright on Java Maven.
+This is a simple sample for Test Automation using Playwright on Java Maven with TestNG and Allure Report.
 
 ## Requirements 
 
