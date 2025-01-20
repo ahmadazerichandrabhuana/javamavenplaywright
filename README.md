@@ -3,9 +3,9 @@ This is a simple sample for Test Automation using Playwright on Java Maven.
 
 ## Requirements 
 
-1. Install Java, setup the JAVA_HOME, and MAVEN_HOME into your PATH file (Environment Variabels). You can check [this article](https://medium.com/@zorozeri/install-maven-by-setting-up-maven-home-abb4d158fcc6) for reference of setting up JAVA_HOME and MAVEN_HOME manually, or check [this article](https://medium.com/@zorozeri/manage-java-version-using-sdkman-including-maven-gradle-scala-kotlin-and-many-more-82532be9437e) for using SDKMAN! to install anything Java-related automatically
+1. Install Java, setup the JAVA_HOME, and MAVEN_HOME into your PATH file (Environment Variabels). You can check [this article](https://medium.com/@zorozeri/install-maven-by-setting-up-maven-home-abb4d158fcc6) for reference of setting up JAVA_HOME and MAVEN_HOME manually, or check [this article](https://medium.com/@zorozeri/manage-java-version-using-sdkman-including-maven-gradle-scala-kotlin-and-many-more-82532be9437e) for using SDKMAN! to install anything Java-related automatically.
 2. Install any IDE or Code Editor you're comfort with. Since this is Java, for IDE I'll suggest [Intellij IDEA](https://www.jetbrains.com/idea/download). For usual Code Editor, I'll suggest [VS Code](https://code.visualstudio.com/).
-3. Download this code repository into your local machine
+3. Download this code repository into your local machine.
 
 ## Run Tests
 * Run all tests : Open terminal and run this command
