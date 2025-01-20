@@ -8,9 +8,11 @@ This is a simple sample for Test Automation using Playwright on Java Maven.
    - [Setup up JAVA_HOME manually](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe).
    - [Setup MAVEN_HOME manually](https://medium.com/@zorozeri/install-maven-by-setting-up-maven-home-abb4d158fcc6).
    - [Use SDKMAN](https://medium.com/@zorozeri/manage-java-version-using-sdkman-including-maven-gradle-scala-kotlin-and-many-more-82532be9437e) to setup everything Java-related automatically.
-   - You can check [this artcile](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe) for reference of setting up JAVA_HOME and [this article](https://medium.com/@zorozeri/install-maven-by-setting-up-maven-home-abb4d158fcc6) for setting up MAVEN_HOME manually, or check [this article](https://medium.com/@zorozeri/manage-java-version-using-sdkman-including-maven-gradle-scala-kotlin-and-many-more-82532be9437e) for using SDKMAN! to install anything Java-related automatically.
-3. Install any IDE or Code Editor you're comfort with. Since this is Java, for IDE I'll suggest [Intellij IDEA](https://www.jetbrains.com/idea/download). For usual Code Editor, I'll suggest [VS Code](https://code.visualstudio.com/).
-4. Download this code repository into your local machine.
+3. Install any IDE or Code Editor you're comfort with.
+   Recommended :
+   - IDE : [Intellij IDEA](https://www.jetbrains.com/idea/download).
+   - Code Editor : [VS Code](https://code.visualstudio.com/).
+5. Download this code repository into your local machine.
 
 ## Run Tests
 * Run all tests : Open terminal and run this command
