@@ -29,76 +29,76 @@ public class LoginPage {
 
     @Step("Verify Login Page opened OK")
     public void verifyLoginPageOK(){
-        assertThat(this.textHeaderLogin).isVisible();
-        assertThat(this.inputUsername).isVisible();
-        assertThat(this.inputPassword).isVisible();
-        assertThat(this.buttonLogin).isVisible();
-        assertThat(this.textHeaderLogin).hasText("Swag Labs");
-        assertThat(this.inputUsername).hasAttribute("placeholder", "Username");
-        assertThat(this.inputPassword).hasAttribute("placeholder", "Password");
-        assertThat(this.buttonLogin).hasAttribute("value", "Login");
+        assertThat(textHeaderLogin).isVisible();
+        assertThat(inputUsername).isVisible();
+        assertThat(inputPassword).isVisible();
+        assertThat(buttonLogin).isVisible();
+        assertThat(textHeaderLogin).hasText("Swag Labs");
+        assertThat(inputUsername).hasAttribute("placeholder", "Username");
+        assertThat(inputPassword).hasAttribute("placeholder", "Password");
+        assertThat(buttonLogin).hasAttribute("value", "Login");
     }
 
     @Step("Verify Login Page opened OK but the Test Case is failed")
     public void verifyLoginPageFailed(){
-        assertThat(this.textHeaderLogin).isVisible();
-        assertThat(this.inputUsername).isVisible();
-        assertThat(this.inputPassword).isVisible();
-        assertThat(this.buttonLogin).isVisible();
-        assertThat(this.textHeaderLogin).hasText("Swag Labs");
-        assertThat(this.inputUsername).hasAttribute("placeholder", "Username");
-        assertThat(this.inputPassword).hasAttribute("placeholder", "Password");
-        assertThat(this.buttonLogin).hasAttribute("value", "Logins");
+        assertThat(textHeaderLogin).isVisible();
+        assertThat(inputUsername).isVisible();
+        assertThat(inputPassword).isVisible();
+        assertThat(buttonLogin).isVisible();
+        assertThat(textHeaderLogin).hasText("Swag Labs");
+        assertThat(inputUsername).hasAttribute("placeholder", "Username");
+        assertThat(inputPassword).hasAttribute("placeholder", "Password");
+        assertThat(buttonLogin).hasAttribute("value", "Logins");
     }
 
     @Step("Click Login Button")
     public void clickLoginButton(){
-        this.buttonLogin.click();
+        buttonLogin.click();
     }
 
     @Step("Verify error on field Username")
     public void verifyErrorOnUsername(){
-        assertThat(this.iconErrorUsername).isVisible();
+        assertThat(iconErrorUsername).isVisible();
     }
 
     @Step("Verify error on field Password")
     public void verifyErrorOnPassword(){
-        assertThat(this.iconErrorPassword).isVisible();
+        assertThat(iconErrorPassword).isVisible();
     }
 
     @Step("Verify error \"Username is required\"")
     public void verifyErrorUsernameIsRequired(){
-        assertThat(this.textHeaderError).isVisible();
-        assertThat(this.buttonError).isVisible();
-        assertThat(this.iconButtonError).isVisible();
-        assertThat(this.textHeaderError).hasText("Epic sadface: Username is required");
+        assertThat(textHeaderError).isVisible();
+        assertThat(buttonError).isVisible();
+        assertThat(iconButtonError).isVisible();
+        assertThat(textHeaderError).hasText("Epic sadface: Username is required");
     }
 
     @Step("Input into Username field")
     public void inputToUsername(String text){
-        this.inputUsername.clear();
-        this.inputUsername.fill(text);
+        inputUsername.clear();
+        inputUsername.fill(text);
     }
 
     @Step("Input into Password field")
     public void inputToPassword(String text){
-        this.inputPassword.clear();
-        this.inputPassword.fill(text);
+        inputPassword.clear();
+        inputPassword.fill(text);
     }
 
     @Step("Verify error \"Username and Password do not match\"")
     public void verifyErrorUsernameAndPasswordDoNotMatch(){
-        assertThat(this.textHeaderError).isVisible();
-        assertThat(this.buttonError).isVisible();
-        assertThat(this.iconButtonError).isVisible();
-        assertThat(this.textHeaderError).hasText("Epic sadface: Username and password do not match any user in this service");
+        assertThat(textHeaderError).isVisible();
+        assertThat(buttonError).isVisible();
+        assertThat(iconButtonError).isVisible();
+        assertThat(textHeaderError).hasText("Epic sadface: Username and password do not match any user in this service");
     }
 
     @Step("Verify Login Page is not shown anymore")
     public void verifyLoginPageIsNotShownAnymore(){
-        assertThat(this.textHeaderLogin).hasCount(0);
-        assertThat(this.inputUsername).hasCount(0);
-        assertThat(this.inputPassword).hasCount(0);
-        assertThat(this.buttonLogin).hasCount(0);
+        assertThat(textHeaderLogin).hasCount(0);
+        assertThat(inputUsername).hasCount(0);
+        assertThat(inputPassword).hasCount(0);
+        assertThat(buttonLogin).hasCount(0);
     }
 }
