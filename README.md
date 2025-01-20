@@ -58,7 +58,7 @@ This sample Test Automation consists of 2 main folders :
 Apart from these 3 folders, this sample also using several files on the root folder :
    ```
    > pom.xml       : Maven's standard XML File for storing project's dependencies
-   > config.yaml   : contains any config-related data for this project
+   > config.yaml   : yaml file for storing any config-related data for this project
    ```
 
 ## Playwright on Java Documentation
