@@ -10,7 +10,7 @@ This is a simple sample for Test Automation using Playwright on Java Maven.
    - [Use SDKMAN!](https://medium.com/@zorozeri/manage-java-version-using-sdkman-including-maven-gradle-scala-kotlin-and-many-more-82532be9437e) to setup everything Java-related automatically.
 3. Install any IDE or Code Editor you're comfort with.
    Recommended :
-   - IDE : [Intellij IDEA](https://www.jetbrains.com/idea/download).
+   - IDE : [IntelliJ IDEA](https://www.jetbrains.com/idea/download).
    - Code Editor : [VS Code](https://code.visualstudio.com/).
 5. Download this code repository into your local machine.
 
