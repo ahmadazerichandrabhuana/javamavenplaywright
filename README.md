@@ -55,7 +55,7 @@ This sample Test Automation consists of 2 main folders :
    Contains xml file for listing which test cases want to be executed
    ```
 
-Apart from these 3 folders, this sample also using several files on the root folder :=
+Apart from these 3 folders, this sample also using several files on the root folder :
    ```
    > pom.xml       : Maven's standard XML File for storing project's dependencies
    > config.yaml   : contains any config-related data for this project
