@@ -69,3 +69,5 @@ Apart from these 3 folders, this sample also using several files on the root fol
   https://playwright.dev/java/docs/api/class-pageassertions
 - Element Assertions
   https://playwright.dev/java/docs/api/class-locatorassertions
+- Page Object Model Patterns
+  https://playwright.dev/java/docs/pom
