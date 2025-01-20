@@ -15,8 +15,8 @@ public class ProductsPage {
 
     @Step("Verify Current Page opened is Product Page")
     public void verifyProductsPageOK(String baseUrl){
-        assertThat(this.textProductsTitle).isVisible();
-        assertThat(this.textProductsTitle).hasText("Products");
+        assertThat(textProductsTitle).isVisible();
+        assertThat(textProductsTitle).hasText("Products");
         assertThat(page).hasURL(baseUrl + "inventory.html");
     }
 }
