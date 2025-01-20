@@ -8,11 +8,12 @@ This is a simple sample for Test Automation using Playwright on Java Maven.
    - [Setup JAVA_HOME manually](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe).
    - [Setup MAVEN_HOME manually](https://medium.com/@zorozeri/install-maven-by-setting-up-maven-home-abb4d158fcc6).
    - [Use SDKMAN!](https://medium.com/@zorozeri/manage-java-version-using-sdkman-including-maven-gradle-scala-kotlin-and-many-more-82532be9437e) to setup everything Java-related automatically.
-3. Install any IDE or Code Editor you're comfort with.
+2. Install any IDE or Code Editor you're comfort with.
    Recommended :
    - IDE : [IntelliJ IDEA](https://www.jetbrains.com/idea/download).
    - Code Editor : [VS Code](https://code.visualstudio.com/).
-5. Download this code repository into your local machine.
+3. Install [Allure Report](https://allurereport.org/docs/install/). 
+4. Download this code repository into your local machine.
 
 ## Run Tests
 * Run all tests : Open terminal and run this command
