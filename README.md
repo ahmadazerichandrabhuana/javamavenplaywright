@@ -1,4 +1,4 @@
-# Test Automation using Playwroght on Java Maven
+# Test Automation using Playwright on Java Maven
 This is a simple sample for Test Automation using Playwright on Java Maven.
 
 ## Requirements 
