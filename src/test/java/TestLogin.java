@@ -27,6 +27,7 @@ class TestLogin extends TestParent {
         loginPage.inputToUsername("standard_user");
         loginPage.inputToPassword("secret_sauce");
         loginPage.clickLoginButton();
+        loginPage.verifyLoginPageIsNotShownAnymore();
         ProductsPage productsPage = new ProductsPage(page);
         productsPage.verifyProductsPageOK(yamlData.get("SauceDemo_URL").toString());
     }
